@@ -1,0 +1,9 @@
+// Function declaration:
+
+function doStuff() {};
+// Function expression:
+
+const doStuff = function() {}
+
+const doStuff = () => {}
+// Function declarations are hoisted but function expressions are not.
